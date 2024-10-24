@@ -3,225 +3,108 @@
    <head>
       <title>Text Links</title>
       <style>
-         body {
-            margin: 0px;
-         }  
+         p {
+            border: 3px solid beige;
+         }
+         
+         .box {
+            padding: 10px;
+            text-align: center;
+            border: 3px solid lightgreen;
+         }
+         
+         h3 {
+            text-align: center;
+            font-family: sans-serif;
+         }
+         
       
-         ul {
-            list-style-type: none;
-            margin: 0px;
-            padding: 0px;
-         }
-         
-         a {
-            text-decoration: none;
-            color: black;
-            font-family: Segoe UI;
-         }
-         
-         /*
-         -----------    
-         Part 1
-         -----------
-         */
-         
-         .nav-v1 ul {
-            width: 150px;
-         }
-         
-         .nav-v1 a {
-            display: block;
+         /*******************
+                Part 1
+         *******************/
+      
+         div.box-1:hover {
             background: pink;
-            padding: 15px 20px;
-            text-align: center;
          }
          
-         .nav-v1 a:hover {
-            color: white;
-            background: indianred;
-         }
-         
-         a.nav-active1 {
-            color: white;
-            background: salmon;
-         }
-         
-         /*
-         -----------
-         Part 2
-         -----------
-         */
-         
-         .nav-v2 li {
-            float: left;
-            clear: left;
-            width: 150px;
-         }
-         
-         .nav-v2 a {
-            display: block;
+      
+         /*******************
+                Part 2
+         *******************/
+      
+         div.box-2:hover p {
             background: pink;
-            padding: 15px 20px;
-            text-align: center;
+            font-family: sans-serif;
          }
          
-         .nav-v2 a:hover {
-            color: white;
-            background: indianred;
-         }
-         
-         a.nav-active2 {
-            color: white;
-            background: salmon;
-         }
-         
-         /*
-         -----------
-         Part 3
-         -----------
-         */
-         
-         .nav-h1 li {
-            width: 150px;
-            display: inline;
-         }
-         
-         .nav-h1 a {
+      
+         /*******************
+                Part 3
+         *******************/
+      
+         .box-3:active {
             background: pink;
-            padding: 15px 20px;
-            text-align: center;
          }
          
-         .nav-h1 a:hover {
-            color: white;
-            background: indianred;
+         .box-4 input:checked {
+            width: 20px;
+            height: 20px;
          }
          
-         a.nav-active3 {
-            color: white;
-            background: salmon;
-         }
-         
-         /*
-         -----------
-         Part 4
-         -----------
-         */
-         
-         .nav-h2 li {
-            width: 150px;
-            float: left;
-         }
-         
-         .nav-h2 a {
-            display: block;
+         .box-5 input:focus {
             background: pink;
-            padding: 15px 20px;
-            text-align: center;
-         }
-         
-         .nav-h2 a:hover {
-            color: white;
-            background: indianred;
-         }
-         
-         a.nav-active4 {
-            color: white;
-            background: salmon;
-         }
-         
-         /*
-         -----------
-         Part 5
-         -----------
-         */
-         
-         .nav-h3 ul {
-            display: flex;
-            justify-content: center;
-         }
-         
-         .nav-h3 li {
-            width: 150px;
-            float: left;
-         }
-         
-         .nav-h3 a {
-            display: block;
-            background: pink;
-            padding: 15px 20px;
-            text-align: center;
-         }
-         
-         .nav-h3 a:hover {
-            color: white;
-            background: indianred;
-         }
-         
-         a.nav-active5 {
-            color: white;
-            background: salmon;
          }
       </style>
    </head>
    <body>
-         <!-- Part 1 <br> -->
-         <!-- <nav class="nav-v1"> -->
-            <!-- <ul> -->
-               <!-- <li><a class="nav-active1" href="#">Home</a></li> -->
-               <!-- <li><a href="#">Products</a></li> -->
-               <!-- <li><a href="#">About</a></li> -->
-               <!-- <li><a href="#">Contact</a></li> -->
-            <!-- </ul> -->
-         <!-- </nav> -->
-         
-         <!-- <br><br><br> -->
-         
-         <!-- Part 2 <br> -->
-         <!-- <nav class="nav-v2"> -->
-            <!-- <ul> -->
-               <!-- <li><a class="nav-active2" href="#">Home</a></li> -->
-               <!-- <li><a href="#">Products</a></li> -->
-               <!-- <li><a href="#">About</a></li> -->
-               <!-- <li><a href="#">Contact</a></li> -->
-            <!-- </ul> -->
-         <!-- </nav> -->
-         
-         <!-- Try to remove this br -->
-         <!-- <br><br><br><br><br><br><br><br><br><br><br><br><br><br>   -->
-         
-         <!-- Part 3 <br>  -->
-         <!-- <nav class="nav-h1"> -->
-            <!-- <ul> -->
-               <!-- <li><a class="nav-active3" href="#">Home</a></li> -->
-               <!-- <li><a href="#">Products</a></li> -->
-               <!-- <li><a href="#">About</a></li> -->
-               <!-- <li><a href="#">Contact</a></li> -->
-            <!-- </ul> -->
-         <!-- </nav> -->
-         
-         <!-- <br><br><br>   -->
-         
-         <!-- Part 4 <br>  -->
-         <!-- <nav class="nav-h2"> -->
-            <!-- <ul> -->
-               <!-- <li><a class="nav-active4" href="#">Home</a></li> -->
-               <!-- <li><a href="#">Products</a></li> -->
-               <!-- <li><a href="#">About</a></li> -->
-               <!-- <li><a href="#">Contact</a></li> -->
-            <!-- </ul> -->
-         <!-- </nav> -->
-         
-         <!-- <br><br><br>  <br><br>   -->
-         
-         <!-- Part 5 <br>  -->
-         <!-- <nav class="nav-h3"> -->
-            <!-- <ul> -->
-               <!-- <li><a class="nav-active5" href="#">Home</a></li> -->
-               <!-- <li><a href="#">Products</a></li> -->
-               <!-- <li><a href="#">About</a></li> -->
-               <!-- <li><a href="#">Contact</a></li> -->
-            <!-- </ul> -->
-         <!-- </nav> -->
+      <!-- Part 1 -->
+      <h3>Part 1</h3>
+      <div class="box box-1">
+         <p>Hover over me!</p>
+      </div>
+      
+      <br><br><br>
+      
+      <!-- Part 2 -->
+      <h3>Part 2</h3>
+      <div class="box box-2">
+         <p>Try hovering over the div.</p>
+      </div>
+      
+      <br><br><br>
+      
+      <!-- Part 3 -->
+      <h3>Part 3</h3>
+      <div class="box box-3">
+         <p>Try clicking the div.</p>
+      </div>
+      
+      <br>
+      
+      <div class="box box-4">
+         Check me! 
+         <input type="checkbox">
+      </div>
+      
+      <br>
+      
+      <div class="box box-5">
+         <div>
+            <span>First name: </span>
+            <input type="text">
+         </div>
+         <div>
+            <span>Last name: </span>
+            <input type="text">
+         </div>
+         <div>
+            <span>Email: </span>
+            <input type="email">
+         </div>
+         <div>
+            <span>Password: </span>
+            <input type="password">
+         </div>
+      </div>
    </body>
 </html>
